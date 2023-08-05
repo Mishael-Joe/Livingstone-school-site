@@ -1,6 +1,6 @@
 "use client"
 // https://www.youtube.com/watch?v=Tmkr2kKUEgU
-import Nav from './component/Nav/page'
+import Nav from './component/nav/page'
 import MainContent from './maincontent/page'
 import Footer from './component/footer/page'
 
