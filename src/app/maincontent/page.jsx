@@ -2,7 +2,6 @@ import Header from './header/page';
 import AboutUS from './aboutus/page'
 import Content_1 from './content1/page';
 import ContactUs from './contact/page';
-import OurTeam from './ourteam/page';
 import Facilities from './facilities/page';
 import Reviews from './reviews/page'
 
@@ -19,9 +18,7 @@ const MainContent = () => {
     <AboutUS/>
     <Content_1 />
     <Facilities/>
-    {/* <OurTeam /> */}
     <Reviews />
-    {/* <FAQs /> */}
     <ContactUs />
     </>
   )
