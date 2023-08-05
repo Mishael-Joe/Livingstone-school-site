@@ -1,7 +1,6 @@
 import Header from './header/page';
 import AboutUS from './aboutus/page'
 import Content_1 from './content1/page';
-import FAQs from './FAQs/page';
 import ContactUs from './contact/page';
 import OurTeam from './ourteam/page';
 import Facilities from './facilities/page';
