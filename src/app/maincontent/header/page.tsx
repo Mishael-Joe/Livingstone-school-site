@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Header = () => {
   return (
-    <header id='Home' className="px-4 pt-14">
+    <header id='Home' className="px-4 pt-14 text-[#021422] dark:text-[#021422]">
         <div>
             <h1 className="pt-4 text-xs font-mono font-semibold">Admission in progress... contact us to place your child</h1>
             {/* <h1 className="pt-4 font-bold">LIVINGSTONE <span className="">ACADEMY</span></h1> */}

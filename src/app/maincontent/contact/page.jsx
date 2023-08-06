@@ -42,7 +42,7 @@ const ContactUs = () => {
 
   return (
     <section>
-        <div className="p-5 flex gap-4 flex-col-reverse sm:flex-row">
+        <div className="p-5 flex gap-4 flex-col-reverse sm:flex-row text-[#021422] dark:text-[#021422]">
             <div id='Admission' className=' basis-3/6 bg-[#0b80da]/50 shrink'>
                 <h1 className="text-center text-lg font-serif font-bold p-1">CONTACTS</h1>
                 <div className="row g-5">

@@ -27,7 +27,7 @@ function CloseIcon(props) {
 
 function ResponsiveNav() {
     return (
-        <div className='bg-[#46aaf6] fixed right-0 top-0 h-[100vh] w-[40vw] flex flex-col justify-between font-mono transition delay-150 pt-4 z-40'>
+        <div className='bg-[#46aaf6] fixed right-0 top-0 h-[100vh] w-[50vw] flex flex-col justify-between font-mono transition delay-150 pt-4 z-40 text-[#021422] dark:text-[#021422] dark:hover:text-slate-200'>
             <div className='ps-4'>
               <ul className="flex flex-col pt-6">
                 <li className="font-semibold hover:text-slate-200 transition delay-75">
@@ -91,7 +91,7 @@ function App() {
 
   return(
     <section>
-      {windowWidth <= 768 && (
+      {windowWidth < 768 && (
         <HamburgerMenu />
       )}
     </section>
@@ -101,12 +101,12 @@ function App() {
 const Nav = () => {
   return (
     <nav className="fixed w-full py-4 bg-[#46aaf6]/50 px-5 flex justify-between backdrop-blur-lg">
-        <div className="container">
+        <div className="container text-[#021422] dark:text-[#021422]">
             <a href="#Home" className="font-bold container">
               LIVINGSTONE ACADEMY
             </a>
         </div>
-        <ul className="gap-4 font-mono min-w-fit hidden md:flex">
+        <ul className="gap-4 font-mono min-w-fit hidden md:flex text-[#021422] dark:text-[#021422]">
             <li className="font-semibold hover:text-slate-200 transition delay-100">
                 <a href="#Home">HOME</a>
             </li>

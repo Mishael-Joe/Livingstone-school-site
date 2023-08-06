@@ -4,7 +4,7 @@ import React from 'react'
 
 const AboutUS = () => {
   return (
-    <section className="px-4 py-10">
+    <section className="px-4 py-10 text-[#021422] dark:text-[#021422]">
         <div>
             <div className="grid md:grid-cols-3 gap-4">
                 <div className="text-center h-48 bg-[#46aaf6]/50 px-2 py-4 rounded hover:scale-105">
